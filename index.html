@@ -239,5 +239,14 @@ function sortBy(col) {
 
 loadData();
 </script>
+
+<div style="margin-top:24px; font-size:12px; color:#718096; border-top:1px solid #e2e8f0; padding-top:12px;">
+  <strong>【項目の定義】</strong><br>
+  A（良品在庫）：倉庫に実際にある正常品の在庫数<br>
+  B（指示済数）：出荷指示済みだがまだ出荷されていない数（引当済み）<br>
+  C（受注残数）：注文は入っているがまだ出荷指示を出していない数<br>
+  <strong>正しい在庫 = A − B − C</strong>（今すぐ新しい注文に使える実質在庫）
+</div>
+
 </body>
 </html>
