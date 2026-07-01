@@ -1,0 +1,71 @@
+{
+  "updated_at": "2026/07/01 11:31:22",
+  "items": [
+    {
+      "code": "e0780",
+      "name": "キャットザイム クランチ(プレミアム チキン)",
+      "show_code": "",
+      "current": 618,
+      "good_stock": 618,
+      "reserved": 4,
+      "ordered": 0,
+      "real_stock": 614,
+      "return_stock": 0
+    },
+    {
+      "code": "e0781",
+      "name": "キャットザイム クランチ(プレミアム ツナ)",
+      "show_code": "",
+      "current": 474,
+      "good_stock": 474,
+      "reserved": 5,
+      "ordered": 0,
+      "real_stock": 469,
+      "return_stock": 0
+    },
+    {
+      "code": "e0782",
+      "name": "キャットザイム クランチ (プレミアム ベニソン)",
+      "show_code": "",
+      "current": 615,
+      "good_stock": 615,
+      "reserved": 4,
+      "ordered": 0,
+      "real_stock": 611,
+      "return_stock": 0
+    },
+    {
+      "code": "e0783",
+      "name": "ドッグザイム ジャーキー (プレミアム コッドフィッシュ)",
+      "show_code": "",
+      "current": 601,
+      "good_stock": 601,
+      "reserved": 5,
+      "ordered": 0,
+      "real_stock": 596,
+      "return_stock": 0
+    },
+    {
+      "code": "e0784",
+      "name": "ドッグザイム ジャーキー (プレミアム ツナ)",
+      "show_code": "",
+      "current": 976,
+      "good_stock": 976,
+      "reserved": 5,
+      "ordered": 0,
+      "real_stock": 971,
+      "return_stock": 0
+    },
+    {
+      "code": "e0785",
+      "name": "ドッグザイム ジャーキー (プレミアム ベニソン)",
+      "show_code": "",
+      "current": 448,
+      "good_stock": 448,
+      "reserved": 5,
+      "ordered": 0,
+      "real_stock": 443,
+      "return_stock": 0
+    }
+  ]
+}
