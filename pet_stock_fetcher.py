@@ -8,7 +8,7 @@ import os
 import requests
 import json
 import re
-from datetime import datetime
+from datetime import datetime, timezone, timedelta
 from urllib.parse import quote
 
 BASE_URL = "https://reosys2.kanda-web.co.jp/LOGIME"
@@ -148,7 +148,7 @@ def main():
             print(f"  {code} → データなし")
 
     output = {
-        "updated_at": datetime.now().strftime("%Y/%m/%d %H:%M:%S"),
+        "updated_at": datetime.now(timezone(timedelta(hours=9))).strftime("%Y/%m/%d %H:%M:%S"),
         "items": unique,
     }
 
