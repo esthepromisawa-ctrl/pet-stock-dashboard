@@ -196,11 +196,11 @@ function renderTable() {
   // サマリー計算
   const total = items.length;
   const zeroItems = items.filter(x => x.real_stock <= 0).length;
-  const lowItems  = items.filter(x => x.real_stock > 0 && x.real_stock <= 30).length;
+  const lowItems  = items.filter(x => x.real_stock > 0 && x.real_stock <= 100).length;
   document.getElementById("summaryCards").innerHTML = `
     <div class="card"><div class="label">対象商品数</div><div class="value">${total}</div></div>
     <div class="card ${zeroItems > 0 ? 'warn' : ''}"><div class="label">在庫切れ</div><div class="value">${zeroItems}</div></div>
-    <div class="card ${lowItems > 0 ? 'warn' : ''}"><div class="label">残り30以下</div><div class="value">${lowItems}</div></div>
+    <div class="card ${lowItems > 0 ? 'warn' : ''}"><div class="label">残り100以下</div><div class="value">${lowItems}</div></div>
   `;
 
   const fmt = n => n.toLocaleString();
@@ -214,7 +214,7 @@ function renderTable() {
     const rs = item.real_stock;
     const badge = rs <= 0
       ? '<span class="badge zero">在庫切れ</span>'
-      : rs <= 30
+      : rs <= 100
       ? '<span class="badge low">残りわずか</span>'
       : '<span class="badge ok">在庫あり</span>';
     return `<tr>
