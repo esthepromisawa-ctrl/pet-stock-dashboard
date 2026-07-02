@@ -4,6 +4,7 @@
 → stock_data.json を生成します
 """
 
+import os
 import requests
 import json
 import re
@@ -11,8 +12,8 @@ from datetime import datetime
 from urllib.parse import quote
 
 BASE_URL = "https://reosys2.kanda-web.co.jp/LOGIME"
-USER_ID = "555"
-PASSWORD = "555"
+USER_ID = os.environ.get("REOSYS_USER_ID", "555")
+PASSWORD = os.environ.get("REOSYS_PASSWORD", "555")
 
 # 取得する商品コード（直接指定）
 TARGET_CODES = ["e0780", "e0781", "e0782", "e0783", "e0784", "e0785"]

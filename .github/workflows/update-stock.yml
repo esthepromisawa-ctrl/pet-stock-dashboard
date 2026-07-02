@@ -1,0 +1,34 @@
+name: 在庫データ自動更新
+
+on:
+  schedule:
+    - cron: '0 0 * * 1-5'  # 平日の毎朝9:00 JST (UTC 0:00)
+  workflow_dispatch:        # 手動実行も可能
+
+jobs:
+  update-stock:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Python セットアップ
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: 依存ライブラリをインストール
+        run: pip install requests
+
+      - name: 在庫データを取得
+        env:
+          REOSYS_USER_ID: ${{ secrets.REOSYS_USER_ID }}
+          REOSYS_PASSWORD: ${{ secrets.REOSYS_PASSWORD }}
+        run: python pet_stock_fetcher.py
+
+      - name: stock_data.json をコミット & プッシュ
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add stock_data.json
+          git diff --cached --quiet || git commit -m "auto update stock data"
+          git push
