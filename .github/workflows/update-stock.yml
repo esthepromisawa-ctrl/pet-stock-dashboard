@@ -2,7 +2,7 @@ name: 在庫データ自動更新
 
 on:
   schedule:
-    - cron: '0 0 * * 1-5'  # 平日の毎朝9:00 JST (UTC 0:00)
+    - cron: '45 23 * * 0-4'  # 平日の毎朝8:45 JST (UTC 23:45 日-木)。UTC0:00は混雑で遅延するため回避
   workflow_dispatch:        # 手動実行も可能
 
 jobs:
