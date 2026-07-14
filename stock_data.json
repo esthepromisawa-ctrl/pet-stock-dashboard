@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026/07/13 10:13:25",
+  "updated_at": "2026/07/14 10:03:32",
   "items": [
     {
       "code": "e0780",
@@ -7,64 +7,64 @@
       "show_code": "",
       "current": 886,
       "good_stock": 886,
-      "reserved": 0,
+      "reserved": 16,
       "ordered": 0,
-      "real_stock": 886,
+      "real_stock": 870,
       "return_stock": 0
     },
     {
       "code": "e0781",
       "name": "キャットザイム クランチ(プレミアム ツナ)",
       "show_code": "",
-      "current": 433,
-      "good_stock": 433,
-      "reserved": 0,
+      "current": 660,
+      "good_stock": 660,
+      "reserved": 16,
       "ordered": 0,
-      "real_stock": 433,
+      "real_stock": 644,
       "return_stock": 0
     },
     {
       "code": "e0782",
       "name": "キャットザイム クランチ (プレミアム ベニソン)",
       "show_code": "",
-      "current": 778,
-      "good_stock": 778,
-      "reserved": 0,
+      "current": 825,
+      "good_stock": 825,
+      "reserved": 16,
       "ordered": 0,
-      "real_stock": 778,
+      "real_stock": 809,
       "return_stock": 0
     },
     {
       "code": "e0783",
       "name": "ドッグザイム ジャーキー (プレミアム コッドフィッシュ)",
       "show_code": "",
-      "current": 912,
-      "good_stock": 912,
-      "reserved": 3,
+      "current": 955,
+      "good_stock": 955,
+      "reserved": 22,
       "ordered": 0,
-      "real_stock": 909,
+      "real_stock": 933,
       "return_stock": 0
     },
     {
       "code": "e0784",
       "name": "ドッグザイム ジャーキー (プレミアム ツナ)",
       "show_code": "",
-      "current": 1289,
-      "good_stock": 1289,
-      "reserved": 3,
+      "current": 1285,
+      "good_stock": 1285,
+      "reserved": 22,
       "ordered": 0,
-      "real_stock": 1286,
+      "real_stock": 1263,
       "return_stock": 0
     },
     {
       "code": "e0785",
       "name": "ドッグザイム ジャーキー (プレミアム ベニソン)",
       "show_code": "",
-      "current": 1030,
-      "good_stock": 1030,
-      "reserved": 5,
+      "current": 1085,
+      "good_stock": 1085,
+      "reserved": 25,
       "ordered": 0,
-      "real_stock": 1025,
+      "real_stock": 1060,
       "return_stock": 0
     }
   ]
