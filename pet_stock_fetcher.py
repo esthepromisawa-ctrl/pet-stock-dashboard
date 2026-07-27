@@ -16,7 +16,7 @@ USER_ID = os.environ.get("REOSYS_USER_ID", "555")
 PASSWORD = os.environ.get("REOSYS_PASSWORD", "555")
 
 # 取得する商品コード（直接指定）
-TARGET_CODES = ["e0780", "e0781", "e0782", "e0783", "e0784", "e0785"]
+TARGET_CODES = ["e0780", "e0781", "e0782", "e0783", "e0784", "e0785", "e0787"]
 
 
 def clean_html(text):

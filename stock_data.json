@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026/07/27 10:18:06",
+  "updated_at": "2026/07/27 10:41:19",
   "items": [
     {
       "code": "e0780",
@@ -65,6 +65,17 @@
       "reserved": 0,
       "ordered": 0,
       "real_stock": 946,
+      "return_stock": 0
+    },
+    {
+      "code": "e0787",
+      "name": "【Cat&Dog】オメガ3クリルオイル(15g)",
+      "show_code": "",
+      "current": 3173,
+      "good_stock": 3173,
+      "reserved": 0,
+      "ordered": 0,
+      "real_stock": 3173,
       "return_stock": 0
     }
   ]
