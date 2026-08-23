@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026/08/21 08:59:15",
+  "updated_at": "2026/08/24 08:56:44",
   "items": [
     {
       "code": "e0780",
@@ -7,9 +7,9 @@
       "show_code": "",
       "current": 942,
       "good_stock": 942,
-      "reserved": 0,
+      "reserved": 2,
       "ordered": 0,
-      "real_stock": 942,
+      "real_stock": 940,
       "return_stock": 0
     },
     {
@@ -18,64 +18,64 @@
       "show_code": "",
       "current": 1019,
       "good_stock": 1019,
-      "reserved": 0,
+      "reserved": 3,
       "ordered": 0,
-      "real_stock": 1019,
+      "real_stock": 1016,
       "return_stock": 0
     },
     {
       "code": "e0782",
       "name": "キャットザイム クランチ (プレミアム ベニソン)",
       "show_code": "",
-      "current": 932,
-      "good_stock": 932,
-      "reserved": 3,
+      "current": 929,
+      "good_stock": 929,
+      "reserved": 2,
       "ordered": 0,
-      "real_stock": 929,
+      "real_stock": 927,
       "return_stock": 0
     },
     {
       "code": "e0783",
       "name": "ドッグザイム ジャーキー (プレミアム コッドフィッシュ)",
       "show_code": "",
-      "current": 1134,
-      "good_stock": 1134,
-      "reserved": 16,
+      "current": 1118,
+      "good_stock": 1118,
+      "reserved": 3,
       "ordered": 0,
-      "real_stock": 1118,
+      "real_stock": 1115,
       "return_stock": 0
     },
     {
       "code": "e0784",
       "name": "ドッグザイム ジャーキー (プレミアム ツナ)",
       "show_code": "",
-      "current": 1348,
-      "good_stock": 1348,
-      "reserved": 16,
+      "current": 1332,
+      "good_stock": 1332,
+      "reserved": 3,
       "ordered": 0,
-      "real_stock": 1332,
+      "real_stock": 1329,
       "return_stock": 0
     },
     {
       "code": "e0785",
       "name": "ドッグザイム ジャーキー (プレミアム ベニソン)",
       "show_code": "",
-      "current": 2109,
-      "good_stock": 2109,
-      "reserved": 49,
+      "current": 2060,
+      "good_stock": 2060,
+      "reserved": 2,
       "ordered": 0,
-      "real_stock": 2060,
+      "real_stock": 2058,
       "return_stock": 0
     },
     {
       "code": "e0787",
       "name": "【Cat&Dog】オメガ3クリルオイル(15g)",
       "show_code": "",
-      "current": 2952,
-      "good_stock": 2952,
-      "reserved": 3,
+      "current": 2948,
+      "good_stock": 2948,
+      "reserved": 1,
       "ordered": 2,
-      "real_stock": 2947,
+      "real_stock": 2945,
       "return_stock": 0
     }
   ]
