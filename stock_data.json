@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026/08/26 08:58:51",
+  "updated_at": "2026/08/27 14:02:41",
   "items": [
     {
       "code": "e0780",
@@ -7,9 +7,9 @@
       "show_code": "",
       "current": 936,
       "good_stock": 936,
-      "reserved": 0,
+      "reserved": 1,
       "ordered": 0,
-      "real_stock": 936,
+      "real_stock": 935,
       "return_stock": 0
     },
     {
@@ -18,9 +18,9 @@
       "show_code": "",
       "current": 1005,
       "good_stock": 1005,
-      "reserved": 0,
+      "reserved": 2,
       "ordered": 0,
-      "real_stock": 1005,
+      "real_stock": 1003,
       "return_stock": 0
     },
     {
@@ -29,9 +29,9 @@
       "show_code": "",
       "current": 922,
       "good_stock": 922,
-      "reserved": 0,
+      "reserved": 1,
       "ordered": 0,
-      "real_stock": 922,
+      "real_stock": 921,
       "return_stock": 0
     },
     {
@@ -40,42 +40,42 @@
       "show_code": "",
       "current": 1106,
       "good_stock": 1106,
-      "reserved": 0,
+      "reserved": 4,
       "ordered": 0,
-      "real_stock": 1106,
+      "real_stock": 1102,
       "return_stock": 0
     },
     {
       "code": "e0784",
       "name": "ドッグザイム ジャーキー (プレミアム ツナ)",
       "show_code": "",
-      "current": 1320,
-      "good_stock": 1320,
-      "reserved": 1,
+      "current": 1319,
+      "good_stock": 1319,
+      "reserved": 3,
       "ordered": 0,
-      "real_stock": 1319,
+      "real_stock": 1316,
       "return_stock": 0
     },
     {
       "code": "e0785",
       "name": "ドッグザイム ジャーキー (プレミアム ベニソン)",
       "show_code": "",
-      "current": 2042,
-      "good_stock": 2042,
-      "reserved": 1,
+      "current": 2041,
+      "good_stock": 2041,
+      "reserved": 5,
       "ordered": 0,
-      "real_stock": 2041,
+      "real_stock": 2036,
       "return_stock": 0
     },
     {
       "code": "e0787",
       "name": "【Cat&Dog】オメガ3クリルオイル(15g)",
       "show_code": "",
-      "current": 2938,
-      "good_stock": 2938,
-      "reserved": 5,
+      "current": 2932,
+      "good_stock": 2932,
+      "reserved": 2,
       "ordered": 2,
-      "real_stock": 2931,
+      "real_stock": 2928,
       "return_stock": 0
     }
   ]
