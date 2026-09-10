@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026/09/09 10:32:22",
+  "updated_at": "2026/09/10 10:27:53",
   "items": [
     {
       "code": "e0780",
@@ -29,18 +29,18 @@
       "show_code": "",
       "current": 1154,
       "good_stock": 1154,
-      "reserved": 1,
+      "reserved": 2,
       "ordered": 0,
-      "real_stock": 1153,
+      "real_stock": 1152,
       "return_stock": 0
     },
     {
       "code": "e0783",
       "name": "ドッグザイム ジャーキー (プレミアム コッドフィッシュ)",
       "show_code": "",
-      "current": 1884,
-      "good_stock": 1884,
-      "reserved": 2,
+      "current": 1883,
+      "good_stock": 1883,
+      "reserved": 1,
       "ordered": 0,
       "real_stock": 1882,
       "return_stock": 0
@@ -49,9 +49,9 @@
       "code": "e0784",
       "name": "ドッグザイム ジャーキー (プレミアム ツナ)",
       "show_code": "",
-      "current": 1673,
-      "good_stock": 1673,
-      "reserved": 2,
+      "current": 1672,
+      "good_stock": 1672,
+      "reserved": 1,
       "ordered": 0,
       "real_stock": 1671,
       "return_stock": 0
@@ -60,11 +60,11 @@
       "code": "e0785",
       "name": "ドッグザイム ジャーキー (プレミアム ベニソン)",
       "show_code": "",
-      "current": 2369,
-      "good_stock": 2369,
-      "reserved": 6,
+      "current": 2364,
+      "good_stock": 2364,
+      "reserved": 7,
       "ordered": 0,
-      "real_stock": 2363,
+      "real_stock": 2357,
       "return_stock": 0
     },
     {
@@ -73,9 +73,9 @@
       "show_code": "",
       "current": 2887,
       "good_stock": 2887,
-      "reserved": 0,
+      "reserved": 5,
       "ordered": 0,
-      "real_stock": 2887,
+      "real_stock": 2882,
       "return_stock": 0
     }
   ]
