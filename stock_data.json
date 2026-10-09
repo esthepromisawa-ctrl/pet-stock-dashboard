@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026/10/08 11:56:17",
+  "updated_at": "2026/10/09 12:04:59",
   "items": [
     {
       "code": "e0780",
@@ -7,9 +7,9 @@
       "show_code": "",
       "current": 1004,
       "good_stock": 1004,
-      "reserved": 15,
+      "reserved": 27,
       "ordered": 3,
-      "real_stock": 986,
+      "real_stock": 974,
       "return_stock": 0
     },
     {
@@ -18,9 +18,9 @@
       "show_code": "",
       "current": 941,
       "good_stock": 941,
-      "reserved": 15,
+      "reserved": 28,
       "ordered": 3,
-      "real_stock": 923,
+      "real_stock": 910,
       "return_stock": 0
     },
     {
@@ -29,42 +29,42 @@
       "show_code": "",
       "current": 1440,
       "good_stock": 1440,
-      "reserved": 15,
+      "reserved": 28,
       "ordered": 0,
-      "real_stock": 1425,
+      "real_stock": 1412,
       "return_stock": 0
     },
     {
       "code": "e0783",
       "name": "ドッグザイム ジャーキー (プレミアム コッドフィッシュ)",
       "show_code": "",
-      "current": 1580,
-      "good_stock": 1580,
-      "reserved": 16,
+      "current": 1579,
+      "good_stock": 1579,
+      "reserved": 51,
       "ordered": 0,
-      "real_stock": 1564,
+      "real_stock": 1528,
       "return_stock": 0
     },
     {
       "code": "e0784",
       "name": "ドッグザイム ジャーキー (プレミアム ツナ)",
       "show_code": "",
-      "current": 1515,
-      "good_stock": 1515,
-      "reserved": 17,
+      "current": 1513,
+      "good_stock": 1513,
+      "reserved": 52,
       "ordered": 0,
-      "real_stock": 1498,
+      "real_stock": 1461,
       "return_stock": 0
     },
     {
       "code": "e0785",
       "name": "ドッグザイム ジャーキー (プレミアム ベニソン)",
       "show_code": "",
-      "current": 2038,
-      "good_stock": 2038,
-      "reserved": 28,
+      "current": 2025,
+      "good_stock": 2025,
+      "reserved": 58,
       "ordered": 1,
-      "real_stock": 2009,
+      "real_stock": 1966,
       "return_stock": 0
     },
     {
@@ -73,9 +73,9 @@
       "show_code": "",
       "current": 2756,
       "good_stock": 2756,
-      "reserved": 15,
+      "reserved": 25,
       "ordered": 1,
-      "real_stock": 2740,
+      "real_stock": 2730,
       "return_stock": 0
     }
   ]
