@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026/10/12 11:38:59",
+  "updated_at": "2026/10/13 12:53:05",
   "items": [
     {
       "code": "e0780",
@@ -40,9 +40,9 @@
       "show_code": "",
       "current": 1567,
       "good_stock": 1567,
-      "reserved": 40,
+      "reserved": 41,
       "ordered": 0,
-      "real_stock": 1527,
+      "real_stock": 1526,
       "return_stock": 0
     },
     {
@@ -51,9 +51,9 @@
       "show_code": "",
       "current": 1500,
       "good_stock": 1500,
-      "reserved": 44,
+      "reserved": 46,
       "ordered": 0,
-      "real_stock": 1456,
+      "real_stock": 1454,
       "return_stock": 0
     },
     {
@@ -62,9 +62,9 @@
       "show_code": "",
       "current": 2006,
       "good_stock": 2006,
-      "reserved": 40,
+      "reserved": 41,
       "ordered": 1,
-      "real_stock": 1965,
+      "real_stock": 1964,
       "return_stock": 0
     },
     {
