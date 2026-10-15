@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026/10/15 10:50:47",
+  "updated_at": "2026/10/15 11:26:11",
   "items": [
     {
       "code": "e0780",
@@ -7,10 +7,11 @@
       "show_code": "",
       "current": 982,
       "good_stock": 982,
-      "reserved": 15,
-      "ordered": 4,
+      "reserved": 16,
+      "ordered": 3,
       "real_stock": 963,
-      "return_stock": 0
+      "return_stock": 0,
+      "sample_stock": 2940
     },
     {
       "code": "e0781",
@@ -18,10 +19,11 @@
       "show_code": "",
       "current": 923,
       "good_stock": 923,
-      "reserved": 13,
-      "ordered": 4,
+      "reserved": 14,
+      "ordered": 3,
       "real_stock": 906,
-      "return_stock": 0
+      "return_stock": 0,
+      "sample_stock": 1907
     },
     {
       "code": "e0782",
@@ -29,10 +31,11 @@
       "show_code": "",
       "current": 1421,
       "good_stock": 1421,
-      "reserved": 12,
-      "ordered": 1,
+      "reserved": 13,
+      "ordered": 0,
       "real_stock": 1408,
-      "return_stock": 0
+      "return_stock": 0,
+      "sample_stock": 2380
     },
     {
       "code": "e0783",
@@ -40,10 +43,11 @@
       "show_code": "",
       "current": 1528,
       "good_stock": 1528,
-      "reserved": 24,
-      "ordered": 1,
+      "reserved": 25,
+      "ordered": 0,
       "real_stock": 1503,
-      "return_stock": 0
+      "return_stock": 0,
+      "sample_stock": 704
     },
     {
       "code": "e0784",
@@ -51,10 +55,11 @@
       "show_code": "",
       "current": 1459,
       "good_stock": 1459,
-      "reserved": 24,
-      "ordered": 1,
+      "reserved": 25,
+      "ordered": 0,
       "real_stock": 1434,
-      "return_stock": 0
+      "return_stock": 0,
+      "sample_stock": 692
     },
     {
       "code": "e0785",
@@ -62,10 +67,11 @@
       "show_code": "",
       "current": 1974,
       "good_stock": 1974,
-      "reserved": 25,
-      "ordered": 7,
+      "reserved": 31,
+      "ordered": 1,
       "real_stock": 1942,
-      "return_stock": 0
+      "return_stock": 0,
+      "sample_stock": 704
     },
     {
       "code": "e0787",
@@ -76,7 +82,8 @@
       "reserved": 15,
       "ordered": 1,
       "real_stock": 2713,
-      "return_stock": 0
+      "return_stock": 0,
+      "sample_stock": null
     }
   ]
 }

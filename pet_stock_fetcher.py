@@ -18,6 +18,9 @@ PASSWORD = os.environ.get("REOSYS_PASSWORD", "555")
 # 取得する商品コード（直接指定）
 TARGET_CODES = ["e0780", "e0781", "e0782", "e0783", "e0784", "e0785", "e0787"]
 
+# サンプル品のコード（本品コード + "_1"）。存在しない商品はスキップされる
+SAMPLE_SUFFIX = "_1"
+
 
 def clean_html(text):
     """HTMLタグと_WHSCD_INHABIT_を除去"""
@@ -141,11 +144,18 @@ def main():
     for code in TARGET_CODES:
         rows = fetch_stock_by_code(session, code)
         parsed = parse_rows(rows)
-        if parsed:
-            unique.append(parsed[0])
-            print(f"  {code} → {parsed[0]['name']}")
-        else:
+        if not parsed:
             print(f"  {code} → データなし")
+            continue
+        item = parsed[0]
+
+        # サンプル品（_1）の在庫を同じ行に付与する
+        sample = parse_rows(fetch_stock_by_code(session, code + SAMPLE_SUFFIX))
+        item["sample_stock"] = sample[0]["real_stock"] if sample else None
+
+        unique.append(item)
+        smp = "-" if item["sample_stock"] is None else f"{item['sample_stock']:,}"
+        print(f"  {code} → {item['name']} (本品 {item['real_stock']:,} / サンプル {smp})")
 
     output = {
         "updated_at": datetime.now(timezone(timedelta(hours=9))).strftime("%Y/%m/%d %H:%M:%S"),

@@ -74,7 +74,7 @@
     }
     table {
       width: 100%;
-      min-width: 820px;
+      min-width: 920px;
       border-collapse: collapse;
       background: white;
     }
@@ -137,11 +137,12 @@
       <th class="num" onclick="sortBy(3)">指示済(B) ↕</th>
       <th class="num" onclick="sortBy(4)">受注残(C) ↕</th>
       <th class="num" onclick="sortBy(5)">正しい在庫 ↕</th>
+      <th class="num" onclick="sortBy(6)">サンプル ↕</th>
       <th>状態</th>
     </tr>
   </thead>
   <tbody id="tableBody">
-    <tr><td colspan="7" class="loading">データを読み込んでいます...</td></tr>
+    <tr><td colspan="8" class="loading">データを読み込んでいます...</td></tr>
   </tbody>
 </table></div>
 
@@ -153,7 +154,7 @@ let sortAsc = true;
 async function loadData() {
   const errEl = document.getElementById("errorMsg");
   errEl.style.display = "none";
-  document.getElementById("tableBody").innerHTML = '<tr><td colspan="7" class="loading">データを読み込んでいます...</td></tr>';
+  document.getElementById("tableBody").innerHTML = '<tr><td colspan="8" class="loading">データを読み込んでいます...</td></tr>';
   document.getElementById("metaLine").textContent = "読み込み中...";
 
   try {
@@ -166,7 +167,7 @@ async function loadData() {
   } catch (e) {
     errEl.style.display = "block";
     errEl.textContent = "⚠ " + e.message;
-    document.getElementById("tableBody").innerHTML = '<tr><td colspan="7" class="no-data">データを取得できませんでした</td></tr>';
+    document.getElementById("tableBody").innerHTML = '<tr><td colspan="8" class="no-data">データを取得できませんでした</td></tr>';
     document.getElementById("metaLine").textContent = "";
   }
 }
@@ -186,6 +187,7 @@ function renderTable() {
       [a.reserved, b.reserved],
       [a.ordered, b.ordered],
       [a.real_stock, b.real_stock],
+      [a.sample_stock ?? -1, b.sample_stock ?? -1],
     ];
     const [av, bv] = vals[sortCol] || [a.name, b.name];
     if (av < bv) return sortAsc ? -1 : 1;
@@ -206,7 +208,7 @@ function renderTable() {
   const fmt = n => n.toLocaleString();
 
   if (items.length === 0) {
-    document.getElementById("tableBody").innerHTML = '<tr><td colspan="7" class="no-data">該当する商品がありません</td></tr>';
+    document.getElementById("tableBody").innerHTML = '<tr><td colspan="8" class="no-data">該当する商品がありません</td></tr>';
     return;
   }
 
@@ -224,6 +226,7 @@ function renderTable() {
       <td class="num">${fmt(item.reserved)}</td>
       <td class="num">${fmt(item.ordered)}</td>
       <td class="num" style="font-weight:bold">${fmt(rs)}</td>
+      <td class="num">${item.sample_stock == null ? '<span style="color:#a0aec0">—</span>' : fmt(item.sample_stock)}</td>
       <td>${badge}</td>
     </tr>`;
   }).join("");
@@ -245,7 +248,8 @@ loadData();
   A（良品在庫）：倉庫に実際にある正常品の在庫数<br>
   B（指示済数）：出荷指示済みだがまだ出荷されていない数（引当済み）<br>
   C（受注残数）：注文は入っているがまだ出荷指示を出していない数<br>
-  <strong>正しい在庫 = A − B − C</strong>（今すぐ新しい注文に使える実質在庫）
+  <strong>正しい在庫 = A − B − C</strong>（今すぐ新しい注文に使える実質在庫）<br>
+  サンプル：サンプル品（商品コード末尾 _1）の在庫数。「—」はサンプル品の設定がない商品です
 </div>
 
 </body>
