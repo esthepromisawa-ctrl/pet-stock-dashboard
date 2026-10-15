@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026/10/15 11:26:11",
+  "updated_at": "2026/10/15 11:46:00",
   "items": [
     {
       "code": "e0780",
@@ -79,9 +79,9 @@
       "show_code": "",
       "current": 2729,
       "good_stock": 2729,
-      "reserved": 15,
+      "reserved": 30,
       "ordered": 1,
-      "real_stock": 2713,
+      "real_stock": 2698,
       "return_stock": 0,
       "sample_stock": null
     }
