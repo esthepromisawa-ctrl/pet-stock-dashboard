@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026/11/02 11:44:59",
+  "updated_at": "2026/11/03 13:01:26",
   "items": [
     {
       "code": "e0780",
@@ -7,11 +7,11 @@
       "show_code": "",
       "current": 936,
       "good_stock": 936,
-      "reserved": 0,
+      "reserved": 4,
       "ordered": 3,
-      "real_stock": 933,
+      "real_stock": 929,
       "return_stock": 0,
-      "sample_stock": 2614
+      "sample_stock": 2606
     },
     {
       "code": "e0781",
@@ -19,11 +19,11 @@
       "show_code": "",
       "current": 869,
       "good_stock": 869,
-      "reserved": 0,
+      "reserved": 12,
       "ordered": 3,
-      "real_stock": 866,
+      "real_stock": 854,
       "return_stock": 0,
-      "sample_stock": 1596
+      "sample_stock": 1588
     },
     {
       "code": "e0782",
@@ -31,11 +31,11 @@
       "show_code": "",
       "current": 1407,
       "good_stock": 1407,
-      "reserved": 0,
+      "reserved": 5,
       "ordered": 0,
-      "real_stock": 1407,
+      "real_stock": 1402,
       "return_stock": 0,
-      "sample_stock": 2059
+      "sample_stock": 2049
     },
     {
       "code": "e0783",
@@ -43,9 +43,9 @@
       "show_code": "",
       "current": 1515,
       "good_stock": 1515,
-      "reserved": 0,
+      "reserved": 7,
       "ordered": 0,
-      "real_stock": 1515,
+      "real_stock": 1508,
       "return_stock": 0,
       "sample_stock": 970
     },
@@ -55,11 +55,11 @@
       "show_code": "",
       "current": 1497,
       "good_stock": 1497,
-      "reserved": 0,
+      "reserved": 5,
       "ordered": 0,
-      "real_stock": 1497,
+      "real_stock": 1492,
       "return_stock": 0,
-      "sample_stock": 955
+      "sample_stock": 945
     },
     {
       "code": "e0785",
@@ -67,9 +67,9 @@
       "show_code": "",
       "current": 1954,
       "good_stock": 1954,
-      "reserved": 0,
+      "reserved": 6,
       "ordered": 1,
-      "real_stock": 1953,
+      "real_stock": 1947,
       "return_stock": 0,
       "sample_stock": 1931
     },
@@ -79,9 +79,9 @@
       "show_code": "",
       "current": 2752,
       "good_stock": 2752,
-      "reserved": 0,
+      "reserved": 5,
       "ordered": 1,
-      "real_stock": 2751,
+      "real_stock": 2746,
       "return_stock": 0,
       "sample_stock": null
     }
