@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026/11/03 13:01:26",
+  "updated_at": "2026/11/04 12:16:45",
   "items": [
     {
       "code": "e0780",
@@ -11,7 +11,7 @@
       "ordered": 3,
       "real_stock": 929,
       "return_stock": 0,
-      "sample_stock": 2606
+      "sample_stock": 2566
     },
     {
       "code": "e0781",
@@ -23,7 +23,7 @@
       "ordered": 3,
       "real_stock": 854,
       "return_stock": 0,
-      "sample_stock": 1588
+      "sample_stock": 1548
     },
     {
       "code": "e0782",
@@ -35,7 +35,7 @@
       "ordered": 0,
       "real_stock": 1402,
       "return_stock": 0,
-      "sample_stock": 2049
+      "sample_stock": 2009
     },
     {
       "code": "e0783",
@@ -47,7 +47,7 @@
       "ordered": 0,
       "real_stock": 1508,
       "return_stock": 0,
-      "sample_stock": 970
+      "sample_stock": 930
     },
     {
       "code": "e0784",
@@ -59,7 +59,7 @@
       "ordered": 0,
       "real_stock": 1492,
       "return_stock": 0,
-      "sample_stock": 945
+      "sample_stock": 905
     },
     {
       "code": "e0785",
@@ -71,7 +71,7 @@
       "ordered": 1,
       "real_stock": 1947,
       "return_stock": 0,
-      "sample_stock": 1931
+      "sample_stock": 1891
     },
     {
       "code": "e0787",
