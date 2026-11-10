@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026/11/09 11:58:28",
+  "updated_at": "2026/11/10 13:47:04",
   "items": [
     {
       "code": "e0780",
@@ -7,35 +7,35 @@
       "show_code": "",
       "current": 931,
       "good_stock": 931,
-      "reserved": 0,
+      "reserved": 26,
       "ordered": 3,
-      "real_stock": 928,
+      "real_stock": 902,
       "return_stock": 0,
-      "sample_stock": 2566
+      "sample_stock": 2320
     },
     {
       "code": "e0781",
       "name": "キャットザイム クランチ(プレミアム ツナ)",
       "show_code": "",
-      "current": 854,
-      "good_stock": 854,
-      "reserved": 1,
+      "current": 853,
+      "good_stock": 853,
+      "reserved": 26,
       "ordered": 3,
-      "real_stock": 850,
+      "real_stock": 824,
       "return_stock": 0,
-      "sample_stock": 1545
+      "sample_stock": 1339
     },
     {
       "code": "e0782",
       "name": "キャットザイム クランチ (プレミアム ベニソン)",
       "show_code": "",
-      "current": 1401,
-      "good_stock": 1401,
-      "reserved": 1,
+      "current": 1400,
+      "good_stock": 1400,
+      "reserved": 26,
       "ordered": 0,
-      "real_stock": 1400,
+      "real_stock": 1374,
       "return_stock": 0,
-      "sample_stock": 2006
+      "sample_stock": 1760
     },
     {
       "code": "e0783",
@@ -43,35 +43,35 @@
       "show_code": "",
       "current": 1507,
       "good_stock": 1507,
-      "reserved": 0,
+      "reserved": 27,
       "ordered": 0,
-      "real_stock": 1507,
+      "real_stock": 1480,
       "return_stock": 0,
-      "sample_stock": 930
+      "sample_stock": 720
     },
     {
       "code": "e0784",
       "name": "ドッグザイム ジャーキー (プレミアム ツナ)",
       "show_code": "",
-      "current": 1491,
-      "good_stock": 1491,
-      "reserved": 3,
+      "current": 1488,
+      "good_stock": 1488,
+      "reserved": 26,
       "ordered": 0,
-      "real_stock": 1488,
+      "real_stock": 1462,
       "return_stock": 0,
-      "sample_stock": 905
+      "sample_stock": 650
     },
     {
       "code": "e0785",
       "name": "ドッグザイム ジャーキー (プレミアム ベニソン)",
       "show_code": "",
-      "current": 1947,
-      "good_stock": 1947,
-      "reserved": 13,
+      "current": 1934,
+      "good_stock": 1934,
+      "reserved": 28,
       "ordered": 1,
-      "real_stock": 1933,
+      "real_stock": 1905,
       "return_stock": 0,
-      "sample_stock": 1891
+      "sample_stock": 1681
     },
     {
       "code": "e0787",
@@ -79,9 +79,9 @@
       "show_code": "",
       "current": 2745,
       "good_stock": 2745,
-      "reserved": 0,
+      "reserved": 5,
       "ordered": 1,
-      "real_stock": 2744,
+      "real_stock": 2739,
       "return_stock": 0,
       "sample_stock": null
     }
