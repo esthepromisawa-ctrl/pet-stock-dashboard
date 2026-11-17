@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026/11/16 12:08:02",
+  "updated_at": "2026/11/17 14:14:24",
   "items": [
     {
       "code": "e0780",
@@ -7,9 +7,9 @@
       "show_code": "",
       "current": 913,
       "good_stock": 913,
-      "reserved": 0,
+      "reserved": 2,
       "ordered": 3,
-      "real_stock": 910,
+      "real_stock": 908,
       "return_stock": 0,
       "sample_stock": 2280
     },
@@ -43,9 +43,9 @@
       "show_code": "",
       "current": 1626,
       "good_stock": 1626,
-      "reserved": 0,
+      "reserved": 1,
       "ordered": 0,
-      "real_stock": 1626,
+      "real_stock": 1625,
       "return_stock": 0,
       "sample_stock": 2600
     },
@@ -55,9 +55,9 @@
       "show_code": "",
       "current": 1683,
       "good_stock": 1683,
-      "reserved": 0,
+      "reserved": 3,
       "ordered": 0,
-      "real_stock": 1683,
+      "real_stock": 1680,
       "return_stock": 0,
       "sample_stock": 1090
     },
@@ -67,9 +67,9 @@
       "show_code": "",
       "current": 2098,
       "good_stock": 2098,
-      "reserved": 0,
+      "reserved": 5,
       "ordered": 1,
-      "real_stock": 2097,
+      "real_stock": 2092,
       "return_stock": 0,
       "sample_stock": 2121
     },
