@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026/11/23 12:59:54",
+  "updated_at": "2026/11/24 16:05:26",
   "items": [
     {
       "code": "e0780",
@@ -43,9 +43,9 @@
       "show_code": "",
       "current": 1483,
       "good_stock": 1483,
-      "reserved": 9,
+      "reserved": 10,
       "ordered": 108,
-      "real_stock": 1366,
+      "real_stock": 1365,
       "return_stock": 0,
       "sample_stock": 2380
     },
@@ -55,9 +55,9 @@
       "show_code": "",
       "current": 1532,
       "good_stock": 1532,
-      "reserved": 15,
+      "reserved": 16,
       "ordered": 108,
-      "real_stock": 1409,
+      "real_stock": 1408,
       "return_stock": 0,
       "sample_stock": 860
     },
