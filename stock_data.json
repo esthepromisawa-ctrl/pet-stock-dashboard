@@ -1,77 +1,77 @@
 {
-  "updated_at": "2026/11/24 16:05:26",
+  "updated_at": "2026/11/25 14:40:30",
   "items": [
     {
       "code": "e0780",
       "name": "キャットザイム クランチ(プレミアム チキン)",
       "show_code": "",
-      "current": 847,
-      "good_stock": 847,
-      "reserved": 5,
+      "current": 842,
+      "good_stock": 842,
+      "reserved": 2,
       "ordered": 39,
-      "real_stock": 803,
+      "real_stock": 801,
       "return_stock": 0,
-      "sample_stock": 2017
+      "sample_stock": 2001
     },
     {
       "code": "e0781",
       "name": "キャットザイム クランチ(プレミアム ツナ)",
       "show_code": "",
-      "current": 840,
-      "good_stock": 840,
-      "reserved": 5,
+      "current": 835,
+      "good_stock": 835,
+      "reserved": 6,
       "ordered": 39,
-      "real_stock": 796,
+      "real_stock": 790,
       "return_stock": 0,
-      "sample_stock": 1525
+      "sample_stock": 1506
     },
     {
       "code": "e0782",
       "name": "キャットザイム クランチ (プレミアム ベニソン)",
       "show_code": "",
-      "current": 1452,
-      "good_stock": 1452,
-      "reserved": 5,
+      "current": 1447,
+      "good_stock": 1447,
+      "reserved": 2,
       "ordered": 36,
-      "real_stock": 1411,
+      "real_stock": 1409,
       "return_stock": 0,
-      "sample_stock": 1460
+      "sample_stock": 1444
     },
     {
       "code": "e0783",
       "name": "ドッグザイム ジャーキー (プレミアム コッドフィッシュ)",
       "show_code": "",
-      "current": 1483,
-      "good_stock": 1483,
-      "reserved": 10,
+      "current": 1473,
+      "good_stock": 1473,
+      "reserved": 6,
       "ordered": 108,
-      "real_stock": 1365,
+      "real_stock": 1359,
       "return_stock": 0,
-      "sample_stock": 2380
+      "sample_stock": 2370
     },
     {
       "code": "e0784",
       "name": "ドッグザイム ジャーキー (プレミアム ツナ)",
       "show_code": "",
-      "current": 1532,
-      "good_stock": 1532,
-      "reserved": 16,
+      "current": 1516,
+      "good_stock": 1516,
+      "reserved": 1,
       "ordered": 108,
-      "real_stock": 1408,
+      "real_stock": 1407,
       "return_stock": 0,
-      "sample_stock": 860
+      "sample_stock": 845
     },
     {
       "code": "e0785",
       "name": "ドッグザイム ジャーキー (プレミアム ベニソン)",
       "show_code": "",
-      "current": 1949,
-      "good_stock": 1949,
-      "reserved": 12,
+      "current": 1937,
+      "good_stock": 1937,
+      "reserved": 15,
       "ordered": 109,
-      "real_stock": 1828,
+      "real_stock": 1813,
       "return_stock": 0,
-      "sample_stock": 1901
+      "sample_stock": 1891
     },
     {
       "code": "e0787",
@@ -79,9 +79,9 @@
       "show_code": "",
       "current": 2614,
       "good_stock": 2614,
-      "reserved": 0,
+      "reserved": 12,
       "ordered": 101,
-      "real_stock": 2513,
+      "real_stock": 2501,
       "return_stock": 0,
       "sample_stock": null
     }
